@@ -1,0 +1,9 @@
+    $(document).ready(function()
+      {
+        $("button.back").click(function()
+          {
+            window.location.href='../admin/adminpanel.php';
+          }
+          );
+      }
+      );

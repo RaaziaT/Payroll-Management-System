@@ -1,0 +1,238 @@
+* {
+      font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+      letter-spacing: 0.1em;
+}
+h1#title
+{
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:800;
+    letter-spacing: 0.1em;
+}
+body
+{
+  background-color: lightgray;
+}
+nav li 
+{
+  display: inline;
+  margin: 0em 2.5em 0em 0em;
+}
+table
+{
+  display: table;
+}
+input
+{
+  display:block;
+  padding: 0.5em;
+  margin: 0.5em;
+  width:15em;
+}
+ul
+{
+  list-style: none;
+}
+li a
+{
+text-decoration:none;
+color: blue;
+height: 4em;
+}
+nav li a,nav ol li a
+{
+  text-decoration:none;
+  color:lightblue;
+}
+nav li a:hover ,a:hover
+{
+  color: black;
+}
+nav li a:visite ,a:visited
+{
+  color:cyan;
+}
+nav
+{
+  background-color: darkblue;
+}
+table
+{
+  border-collapse:collapse;
+  padding:0em 0em 0em 0em;
+}
+#ad,.apimg
+
+{
+  background-color: darkblue;
+  color: lightgray;
+  text-align: center;
+  border-top-right-radius: 0.4em;
+  border-bottom-left-radius: 0.4em; 
+  padding: 0.3em; 
+}
+h5
+{
+  margin: 0em 0em 0em 0em;
+  padding: 0em 0em 0em 0em;
+}
+form.log
+{
+  color: darkblue;
+}
+form
+{
+  color: purple;
+}
+.panel
+{
+  border-collapse:collapse;
+  padding:0em 0em 0em 0em;
+  color: purple; 
+}
+.img
+{
+  width:100%;
+  height:60em;
+  background-image:linear-gradient(to right, black 0%,white 100%),url(../img/img2.jpg);
+  background-repeat:no-repeat;
+  background-size:100% 60em;
+  background-blend-mode: screen;
+  filter:grayscale(35%);
+  }
+form
+{
+  color: purple;
+}
+.mono
+{
+  width:100%;
+  height:9em;
+  background-image:url(../img/img1.jpg);
+  background-repeat:no-repeat;
+  background-size:100% 9em;
+  background-blend-mode: screen;
+  filter:grayscale(25%);
+}
+#title
+{
+  color: darkblue;
+  text-align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+select , form input
+{
+  border-radius: 0.5em;
+}
+.login
+{
+  position: relative;
+  background-color: rgba(170,170,200,0.4);
+  padding: 2em ;
+  width: 22em;
+  margin-left: 34em;
+  margin-right: 28em;
+  margin-top: -10em;
+  height: 30%;
+  border-radius: 3em;
+  clear:both;
+  display: table;
+}
+p,#ad
+{
+  margin: 0em 0em 0em 0em;
+  padding: 0em 0em 0em 0em;
+  font-size: 1.8em;
+}
+form.log
+{
+  color: darkblue;
+}
+.ap
+{
+  background-color:transparent;
+  color: darkblue;
+  text-align: center;
+}
+.container
+{
+  position: relative;
+  background-color: rgba(170,170,200,0.4);
+  padding: 5em;
+  width: 20em;
+  margin-right: 20em;
+  margin-left: 35em;
+  margin-top: -15em;
+  height: 20em;
+  border-radius: 3em;
+  clear:both;
+  display: table;
+}
+.adminpanel
+{
+  position: relative;
+  background-color: rgba(170,170,200,0.4);
+  padding:0.1em ;
+  width: 25em;
+  margin-left: 34.5%;
+  margin-top: 0.1em;
+  height: 50em;
+  border-radius: 1em;
+  clear:both; 
+  display: table;
+}
+.display
+{
+  position: relative;
+  background-color: rgba(170,170,200,0.4);
+  padding:2em;
+  width: 70em;
+  margin-right:2em;
+  margin-left: 4em;
+  margin-top: 2.5em;
+  height: 25em;
+  border-radius: 1em;
+}
+.welcome
+{
+  position: relative;
+  background-color: rgba(170,170,200,0.4);
+  padding:2em;
+  width: 85%;
+  margin-left: 7.8888%;
+  margin-top:1em;
+  height: 17em;
+  border-radius: 1em;
+  clear:both;
+  display:table;
+}
+
+.hd
+{
+  position: relative;
+  padding:0.5% ;
+  width: 25em;
+  margin-left: 32.8888%;
+  margin-right:32.8888%; 
+  height: 5em;
+  border-radius:.5em;
+  display:table;
+  clear:both;
+}
+.hd2
+{ position: relative;
+  padding:0.5%;
+  width: 80%;
+  margin-left:9.8888%;
+  height: 10em;
+  border-radius:.5em;
+  display:table;
+  clear:both;
+}
+button
+{
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius:0.8em;
+}
