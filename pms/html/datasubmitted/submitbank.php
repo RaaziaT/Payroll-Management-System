@@ -4,7 +4,7 @@ $bank_name=$_POST['bank_name'];
 $dbhost ='localhost';
 $dbuser = 'root';
 $dbpass = '';
-$conn = mysql_connect($dbhost,$dbuser,$dbpass);
+$conn = mysqlis_connect($dbhost,$dbuser,$dbpass);
 $sql=" INSERT INTO `bank`(`bank_id`, `bank_name`) VALUES ('$bank_id', '$bank_name')";
 mysql_select_db("pms",$conn);
 $retval = mysql_query($sql,$conn);
